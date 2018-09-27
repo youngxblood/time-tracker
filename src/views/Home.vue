@@ -1,18 +1,38 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <img alt="R6 logo" src="../assets/R6Logo.png" class="r6Logo">
+    <LoginScreen msg="Please make sure you login!"/>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+import LoginScreen from '@/components/LoginScreen.vue'
 
 export default {
   name: 'home',
   components: {
-    HelloWorld
+    LoginScreen
   }
 }
+
+// R6 API TESTING 
+
+
 </script>
+
+
+
+
+
+
+
+
+<style>
+
+.r6Logo {
+  max-width: 450px;
+  max-height: 200px;
+}
+
+</style>

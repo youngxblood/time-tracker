@@ -11,6 +11,7 @@
     "postinstall": "electron-builder install-app-deps"
   },
   "dependencies": {
+    "r6stats": "0.0.3",
     "vue": "^2.5.17",
     "vue-router": "^3.0.1",
     "vuex": "^3.0.1"
